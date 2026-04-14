@@ -3,6 +3,10 @@ name: Autograding
 on:
   push:
     branches: [ "**" ]
+    paths:
+      - "**/*.y"
+      - "**/*.l"
+      - "README.md"
 
 permissions:
   checks: write
